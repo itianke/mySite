@@ -20,16 +20,16 @@
 
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress数据库的名称 */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'bdm243044159_db');
 
 /** MySQL数据库用户名 */
-define('DB_USER', 'username_here');
+define('DB_USER', 'bdm243044159');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'bdm243044159');
 
 /** MySQL主机 */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'bdm243044159.my3w.com');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
@@ -64,7 +64,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  * 如果您有在同一数据库内安装多个WordPress的需求，请为每个WordPress设置
  * 不同的数据表前缀。前缀名只能为数字、字母加下划线。
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'tk_';
 
 /**
  * 开发者专用：WordPress调试模式。
@@ -76,7 +76,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /**
  * zh_CN本地化设置：启用ICP备案号显示
